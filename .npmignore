@@ -1,0 +1,19 @@
+# Source files
+src/
+examples/
+*.traineddata
+
+# Config files
+tsconfig.json
+.gitignore
+.DS_Store
+.cursor/
+
+# Testing and development
+*.test.ts
+*.spec.ts
+coverage/
+.nyc_output/
+
+# Documentation that's not needed on npm
+CHANGELOG.md

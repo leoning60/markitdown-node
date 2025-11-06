@@ -1,0 +1,12 @@
+{
+  "name": "markitdown-node-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Examples for markitdown-node",
+  "scripts": {
+    "start": "node 01-quick-start.js"
+  },
+  "dependencies": {
+    "markitdown-node": "workspace:*"
+  }
+}
