@@ -32,7 +32,7 @@ This project uses pnpm workspace for better development experience:
 npm install -g pnpm
 
 # Clone and setup
-git clone https://github.com/yourusername/markitdown-node.git
+git clone https://github.com/leoning60/markitdown-node.git
 cd markitdown-node
 pnpm install
 pnpm run build
@@ -191,11 +191,18 @@ pnpm run build
 cd examples
 node 01-quick-start.js          # Basic usage
 node 02-all-formats.js          # All supported formats
+node 03-docx-example.js         # Word documents
+node 04-pdf-example.js          # PDF documents
 node 05-image-example.js        # OCR from images
-node 13-new-formats-demo.js     # CSV, JSON, XML, RSS, Atom, ZIP
-node 15-audio-example.js        # Audio transcription
-node 16-ipynb-example.js        # Jupyter Notebooks
-node 17-csv-json-example.js     # CSV and JSON
+node 06-excel-example.js        # Excel spreadsheets
+node 07-powerpoint-example.js   # PowerPoint presentations
+node 08-html-example.js         # HTML pages
+node 09-subtitle-example.js     # Subtitle files
+node 10-convenience-functions.js # Convenience functions
+node 11-ocr-languages.js       # OCR with multiple languages
+node 12-bing-serp-example.js    # Bing SERP results
+node 13-ipynb-example.js       # Jupyter Notebooks
+node 14-csv-json-example.js    # CSV and JSON files
 ```
 
 After modifying source code, just rebuild:
