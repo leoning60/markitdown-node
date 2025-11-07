@@ -1,7 +1,7 @@
 {
   "author": "leoning",
   "name": "markitdown-node",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "TypeScript document extraction library inspired by markitdown. Converts PDF, DOCX, PPTX, XLSX, HTML, CSV, JSON, XML, RSS, Atom, ZIP, Jupyter Notebooks, Bing SERP, images (PNG, JPEG, TIFF with OCR), subtitles (VTT, SRT), and YouTube videos to JSON and Markdown formats.",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
