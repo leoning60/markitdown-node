@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.5.2] - 2025-01-16
+
+### 🧹 Dependencies Cleanup
+
+#### Removed
+- ❌ Removed unused dependencies to reduce package size and improve installation speed:
+  - `@ffmpeg-installer/ffmpeg` - Not used in codebase
+  - `@huggingface/transformers` - Not used in codebase
+  - `execa` - Not used in codebase
+  - `fast-xml-parser` - XML parsing already handled by `@xmldom/xmldom`
+  - `word` - Not used in codebase
+
+#### Impact
+- 📦 Reduced package size by removing 5 unused dependencies
+- ⚡ Faster installation times
+- 🔧 Cleaner dependency tree
+
 ## [1.3.0] - 2024-01-XX
 
 ### 🎉 Additional Format Support - Notebooks, Audio, and Search Results
